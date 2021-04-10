@@ -1,0 +1,188 @@
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 50px;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.max-w-sm {
+  max-width: 24rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-white {
+  background-color: #fff;
+  box-shadow: 2px 2px 20px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+  margin-top: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+/* h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+} */
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.relative {
+  position: relative;
+}
+.inline-flex {
+  display: inline-flex;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+.right-0 {
+  right: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+.absolute {
+  position: absolute;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.m-4 {
+  margin: 1rem;
+}
+.h-2 {
+  height: 0.5rem;
+}
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+.pl-5 {
+  padding-left: 1.25rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.border {
+  border-width: 1px;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.border-gray-300 {
+  border-color: #e2e8f0;
+}
+.bg-white {
+  background-color: #fff;
+}
+.appearance-none {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
+}

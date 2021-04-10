@@ -1,0 +1,38 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid #fafafa;
+  background: lavender;
+}
+
+/* .chat__color:nth-child(even) {
+    background: blue;
+  } */
+/* .chats:nth-child(odd) {
+    background: rgb(77, 77, 90);
+  } */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chat__details {
+  flex: 1;
+}
+
+.chat__details > p {
+  color: gray;
+}
+
+.chat__timestamp {
+  /* color: lightgray; */
+  color: black;
+}
+
+.chat__image {
+  margin-right: 20px;
+}

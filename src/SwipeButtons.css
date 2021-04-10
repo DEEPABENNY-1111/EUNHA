@@ -1,0 +1,70 @@
+.swipeButtons {
+  position: fixed;
+  bottom: 0vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background: #464951;
+}
+
+.swipeButtons .MuiIconsButton-root {
+  background-color: white;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.swipeButtons__repeat {
+  padding: 3w !important;
+  color: #f5b748 !important;
+  /* background: rgb(139, 76, 76); */
+}
+
+.swipeButtons__left {
+  padding: 3w !important;
+  color: #ec5e6f !important;
+  /* background: #62b4f9; */
+}
+
+.swipeButtons__start {
+  padding: 3w !important;
+  /* color: #62b4f9 !important; */
+  color: yellow !important;
+  /* background: #62b4f9; */
+  /* border-radius: 5px !important; */
+}
+
+.swipeButtons__right {
+  padding: 3w !important;
+  color: #76e2b3 !important;
+  /* background: #62b4f9; */
+}
+
+.swipeButtons__lightning {
+  padding: 3w !important;
+  color: #915dd1 !important;
+}
+
+/* .box {
+  width: 150px;
+  height: 75px;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  margin: 40px;
+  float: left;
+}
+
+.box.arrow-top {
+  margin-top: 40px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  right: 40%;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid black;
+} */

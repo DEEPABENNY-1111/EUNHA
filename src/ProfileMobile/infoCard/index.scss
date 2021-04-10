@@ -1,0 +1,28 @@
+.infocard{
+    position:relative;
+    width: 92%;
+    // padding:3%;
+    height: 14vh;
+    border-radius: 0.5em;
+    background-color: white;
+    box-shadow: 0px 1px 15px 0px #0000004f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    font-size: 1rem;
+    opacity:0.6;
+    font-weight: bold;
+    margin-left: 12px;
+    // margin-top: 9px;
+}
+.description{
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity:0.6;
+    margin-left: 12px;
+}
+p{
+    margin:0;
+}

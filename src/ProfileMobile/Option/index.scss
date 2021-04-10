@@ -1,0 +1,48 @@
+.fade{
+    opacity:1;
+    transition:0.2s all ease;
+}
+.faded{
+    opacity:0!important;
+    height: 0!important;
+    margin:0!important;
+}
+.selected{
+    height: 90%!important;
+}
+.option{
+    position:relative;
+    height:40px;
+    width: 85%;
+    transition:0.2s ;
+    margin:1vh;
+    border-radius: 1.4rem;
+    box-shadow: 0px 1px 4px 0px #0000004f;
+}
+.closeBox{
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 5px 10px;
+   
+    // padding:1% 2%;
+}
+.close{
+    
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border:none;
+    background-color: cornflowerblue;
+    .cross{
+        font-size: 1rem;
+        color:white;
+        display: flex;
+        justify-content: center;
+    }
+    .arrow{
+        fill:white;
+        height: 1rem;
+        // width:1rem;
+    }
+}
